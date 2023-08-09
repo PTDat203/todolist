@@ -1,0 +1,102 @@
+
+.container_modal{
+  position:fixed;
+  background-color: rgba(0, 0, 0,0.7);
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addTasks {
+  border-radius: 10px;
+  padding: 13px;
+  width: 100%;
+  background-color: #228be6;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+
+}
+.addTasks:hover{
+  background-color: #1C7ED6;
+}
+
+.modal{
+  display: flex;
+  justify-content: left;  
+
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.overlay{
+  
+}
+
+.modal-content-title-top{
+  padding-top: 16px;
+  font-size: 14px;
+  
+}
+.modal-content-title-top span{
+  color: red;
+}
+.modal-content-summary-top{
+  
+  font-size: 14px;
+}
+.modal-content-summary-top span{
+  color: red;
+}
+
+.modal-content input{
+  margin: 10px 0px 18px;
+  padding: 1px 12px;
+  width: 510px;
+  border: 1px solid #b5bcc3 ;
+  height: 30px;
+  border-radius: 8px;
+  
+}
+
+.modal-content-footer{
+  display: flex;
+  
+}
+.cancel-modal{
+  color: #228BE6;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+}
+.cancel-modal:hover{
+  background-color: #E7F5FF;
+  
+}
+.create-modal{
+  background-color: #228BE6;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-left: 300px;
+}
+.create-modal:hover{
+  background-color: #1C7ED6;
+  
+  
+}
+.modal-content-footer button {
+  width: 100%;
+}
+.input_task:focus{
+  border: 1px solid #2190f0;
+   outline: none;
+}

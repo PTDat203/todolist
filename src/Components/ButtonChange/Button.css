@@ -1,0 +1,16 @@
+.btnlogo{
+    border: none;
+    background-color: transparent;
+    color: #4dabf7;   
+    margin-top: 48px;
+}
+.btnlogo :hover{
+    background-color: #E7F5FF;
+    
+}
+.icon{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px !important ;
+}
+ 

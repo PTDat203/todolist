@@ -1,0 +1,29 @@
+.TodoCard{
+   border: 1px solid #e9ecef; 
+   color: black;
+   font-size: 16px;
+   border-radius: 6px;
+   margin-bottom: 15px;
+   margin-top: 11px;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+.TodoCard-Title{
+    display: flex ;
+    /* margin: 20px 0 0 20px; */
+    margin-bottom: 15px;
+    
+}
+.icon-delete{
+    color: #f14646;
+    cursor: pointer;
+}
+.TodoCard-Summary{
+    /* margin: 0 20px 20px 20px; */
+    color: #88909b;
+}
+.TodoCard p{
+    margin: 0;
+}
+

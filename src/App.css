@@ -1,0 +1,36 @@
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  
+  margin: 30px ;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 6px;
+  width: 700px;
+  background-color: #fdfdfd;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mytasks{
+ 
+  font-size: 34px;
+  margin-bottom: 0;
+  
+}
+.contents{
+  margin: 0;
+  color: #c4c8cc;
+  font-size: 18px;
+}
+
+.footer{
+  /* display: flex; */
+  justify-content: center;
+ 
+}
